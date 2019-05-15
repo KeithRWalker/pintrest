@@ -1,7 +1,9 @@
+import boards from './components/boards/boards';
+
 import '../styles/main.scss';
 
 const init = () => {
-  console.error('testing');
+  boards.initBoards();
 };
 
 init();
